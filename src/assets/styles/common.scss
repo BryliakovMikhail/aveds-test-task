@@ -1,0 +1,138 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+
+body {
+  position: relative;
+  min-width: 320px;
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  font-weight: 400;
+  min-height: 100vh;
+}
+#app {
+  min-height: inherit;
+}
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.container {
+  max-width: 1186px;
+  padding: 0 70px;
+  margin: 0 auto;
+
+  @media (max-width: 576px) {
+    padding: 0 10px;
+  }
+}
+.btn {
+  padding: 15px 40px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0.2px;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+
+  @media (max-width: 788px) {
+    padding: 10px 25px;
+  }
+  @media (max-width: 788px) {
+    padding: 14px 38px;
+  }
+}
+
+.btns-wrapper {
+  margin-top: 35px;
+  display: flex;
+
+  @media (max-width: 576px) {
+    margin-top: 44px;
+  }
+}
+
+.entry-btn.entry-btn {
+  background: $primary;
+  color: $white;
+  border: 1px solid $primary;
+  &:focus {
+    background: $white;
+    color: $focusColor;
+  }
+  &:hover {
+    background: $white;
+    color: $primary;
+  }
+  &:active {
+    background: $white;
+    color: $activeColor;
+  }
+}
+
+.contact-btn {
+  margin-left: 10px;
+  background: $white;
+  color: $primary;
+  border: 1px solid $primary;
+  &:focus {
+    background: $focusColor;
+    color: $white;
+  }
+  &:hover {
+    background: $primary;
+    color: $white;
+  }
+  &:active {
+    background: $activeColor;
+    color: $white;
+  }
+}
+
+.main {
+  padding-top: 98px;
+  padding-bottom: 98px;
+
+  @media (max-width: 576px) {
+    padding-top: 58px;
+    padding-bottom: 58px;
+  }
+}
+.hero {
+  &__title {
+    @include titleText;
+  }
+}
+
+.services {
+  margin-top: 94px;
+
+  @media (max-width: 576px) {
+    margin-top: 30px;
+    padding: 0 14px;
+  }
+}

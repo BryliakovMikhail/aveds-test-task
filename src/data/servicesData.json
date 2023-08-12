@@ -1,0 +1,22 @@
+{
+  "services": [
+    {
+      "id": 1,
+      "title": "Онлайн-прием",
+      "img": "/images/services-icon-1.svg",
+      "descr": "Рыба текст"
+    },
+    {
+      "id": 2,
+      "title": "Экстренный Случай",
+      "img": "/images/services-icon-2.svg",
+      "descr": "Рыба текст"
+    },
+    {
+      "id": 3,
+      "title": "Лечение рака",
+      "img": "/images/services-icon-3.svg",
+      "descr": "Рыба текст"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "login": "max123",
+      "password": "12345678",
+      "name": "Максим"
+    },
+    {
+      "id": 2,
+      "login": "ivan123",
+      "password": "87654321",
+      "name": "Иван"
+    },
+    {
+      "id": 3,
+      "login": "harry123",
+      "password": "11223344",
+      "name": "Гарри"
+    },
+    {
+      "id": 4,
+      "login": "qwerty123",
+      "password": "00000000",
+      "name": "Сергей"
+    }
+  ]
+}
